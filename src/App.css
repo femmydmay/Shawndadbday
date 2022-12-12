@@ -78,6 +78,18 @@ li {
   
 }
 
+
+.spla3 {
+  width: 400px;
+  height: 400px;
+  border: 2px solid rgb(80, 80, 124);
+  display: flex;
+  align-items: center;
+   margin-left: 40px;
+
+  
+}
+
 .shad {
   width: 500px;
   /* height: 500px */
