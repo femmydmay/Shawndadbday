@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 1700px;
+}
+.logo {
+  display: flex;
+  width: 80px;
+  margin-left: 120px;
+  align-items: center;
+  border: 2px solid white;
+  
+ 
+}
+
+ul,
+li {
+  text-decoration: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.hom {
+  text-decoration: none;
+}
+
+.hbt {
+  font-family: "Russo One", sans-serif;
+  font-size: 3rem;
+  color: rgb(16, 16, 100);
+  border: 3px solid white;
+  text-align: center;
+}
+
+.shemi {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  border: 2px solid rgb(1, 1, 31);
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px rgb(16, 16, 100);
+}
+
+.spla {
+  width: 400px;
+  height: 400px;
+  border: 2px solid rgb(24, 24, 138);
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+
+}
+
+.spla2 {
+  width: 400px;
+  height: 400px;
+  border: 2px solid rgb(80, 80, 124);
+  display: flex;
+  align-items: center;
+   margin-left: 40px;
+
+  
+}
+
+.shad {
+  width: 500px;
+  /* height: 500px */
+  box-shadow: 10px 10px 5px rgb(16, 16, 100);
+}
+.fason {
+  padding-top: 20px;
+}
+
+.acme {font-family: 'Acme', sans-serif;
+   
+   
+
+}
+
+.buildone {
+  padding-top: 20px;
+}
+
+.doc {
+  display: flex;
+  justify-content: center;
+}
+
+.happy {
+  font-size: 30px;
+  color: rgb(33, 33, 126);
+}
+.codevs {
+  color: rgb(54, 59, 77);
+  text-align: left;
+  font-size: 18px;
+  padding: -5px;
+  margin: -5px;
+  line-height: 2.5rem;
+}
+.sne {
+  width: 450px;
+  border: 2px solid rgb(1, 1, 32);
+  border-radius: 10px;
+}
+
+.vid {
+  margin-top: 210px;
+  border: 2px Solid white;
+  width: 400px;
+  height: 230px;
+}
+
+.vidc {
+  margin-top: 140px;
+  border: 2px Solid white;
+  width: 400px;
+}
