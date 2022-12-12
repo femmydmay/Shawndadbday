@@ -24,6 +24,10 @@ li {
   text-decoration: none;
 }
 
+.nav_bar{z-index: 1;
+}
+
+
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -87,6 +91,9 @@ li {
    
    
 
+}
+
+.farb{z-index: 1;
 }
 
 .buildone {

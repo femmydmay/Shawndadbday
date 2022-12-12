@@ -11,6 +11,7 @@ import ScrollReveal from "scrollreveal";
 import { useEffect } from "react";
 import shemdoc from "../assets/Shemdadround2.jpg";
 
+
 const Home = () => {
   ScrollReveal().reveal(".section-1", { delay: 200, beforeReveal: "" });
   useEffect(() => {});
@@ -18,6 +19,7 @@ const Home = () => {
     <div className="App bg-[#9799c1] min-h-screen">
       <Navbar />
       <Banner />
+      
 
       <Container className="bui" banner>
         <Row>

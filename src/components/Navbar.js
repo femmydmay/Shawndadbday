@@ -9,11 +9,11 @@ const Navbar = () => {
 
     const [collapse, setCollapse] = useState(true)
   const handleClick = () => setCollapse(!collapse);
- 
-    <About />;
+  <Home />;
+    <About />
   
   return (
-    <nav className="flex justify-between h-20 border-b items-center relative duration-75">
+    <nav className=" nav_bar flex justify-between h-20 border-b items-center relative duration-75">
       {/* <a
         href=""
         className="uppercase font-bold text-2xl animate__animated animate__bounce  text-[#FFFAE3]"
@@ -52,7 +52,7 @@ const Navbar = () => {
       </ul>
 
       <button onClick={handleClick}>
-        <FaBars className="text-2xl hidden max-sm:block" />
+        <FaBars className=" farb text-2xl hidden    max-sm:block" />
       </button>
     </nav>
   );

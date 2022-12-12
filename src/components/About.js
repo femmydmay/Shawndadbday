@@ -11,7 +11,8 @@ const About = () => {
     return (
       <div className="App bg-[#9799c1] min-h-screen">
         <Navbar />
-     <Couword />
+        <Couword />
+       
       </div>
     );
     
