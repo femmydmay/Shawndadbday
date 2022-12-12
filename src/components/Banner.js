@@ -9,9 +9,9 @@ const Banner = () => {
   return (
     // <div className="min-h-[90vh] grid place-content-center">
     // original <div className="grid grid-cols-2 grid-rows-1 h-96 section-1 mb-40 w-[80%] mx-auto pt-10 gap-10">
-    <Container className="bui" banner>
+    <Container className="bui  "  banner>
       <Row>
-        <Col xs={12} md={5} lg={6} className="buils">
+        <Col xs={12} md={5} lg={6} className="bann mb-20">
           <div className="text-black rounded-full shadow-2xl mr-25 pt-20">
             <motion.h1
               className="font-bold text-[4rem] text-milk "

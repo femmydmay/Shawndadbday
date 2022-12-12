@@ -19,16 +19,15 @@ const Home = () => {
     <div className="App bg-[#9799c1] min-h-screen">
       <Navbar />
       <Banner />
-      
 
       <Container className="bui" banner>
         <Row>
-          <Col xs={12} md={5} lg={6} className="buils">
+          <Col xs={12} md={5} lg={6} className="doc ">
             {/* original <div className="grid grid-cols-2 grid-rows-1  gap-x-4 h-150 section-1 mb-10  w-[80%] mx-auto px-10 md:h-full md:w-full"> */}
             {/* <div class="max-w-md  bg-white rounded-xl shadow-md overflow-hidden md:max-w-xl">
         <div class="md:flex">
           <div class="md:shrink-0"> */}
-            <div className="mt-20 ">
+            <div className="mt-10 ">
               <img
                 src={shemdoc}
                 alt=""
@@ -43,7 +42,7 @@ const Home = () => {
               </div> */}
           </Col>
 
-          <Col xs={12} md={5} lg={6} className="buils mt-10">
+          <Col xs={12} md={5} lg={6} className=" dadbday mt-20">
             <div
               className=" shad rounded-full
             shadow-2xl mt-10  bg-gray-900"
@@ -53,18 +52,18 @@ const Home = () => {
             "
               >
                 All thanks to God for His Mercies over <br /> your lives and His
-                protection. <br /> As you both celebrate your<br /> birthday today,
-                may you be celebrated all through for greater achievements and
-                successes. <br />
+                protection. <br /> As you both celebrate your
+                <br /> birthday today, may you be celebrated all through for
+                greater achievements and successes. <br />
                 May the light of God dawn upon you.
               </p>
             </div>
           </Col>
           {/* sec ori <div className="grid grid-cols-2 grid-rows-1 gap-x-4 h-150 section- mb-10  w-[100%] mx-auto px-10 md:h-full md:w-full"> */}
-          <Col xs={12} md={5} lg={6} className="buils mt-20">
+          <Col xs={12} md={5} lg={6} className="dadbday  mt-20">
             <div
               className=" shad rounded-full
-            shadow-2xl mt-20  bg-gray-900"
+            shadow-2xl mt-10  bg-gray-900"
             >
               <p
                 className=" acme  text-[1.5rem]  text-white text-center 
@@ -78,8 +77,8 @@ const Home = () => {
               </p>
             </div>
           </Col>
-          <Col xs={12} md={5} lg={6} className="doc justify-between mt-20">
-            <div className="pt-20">
+          <Col xs={12} md={5} lg={6} className="doc  justify-between mt-20">
+            <div className="mt-10">
               <img
                 src={Docr}
                 alt=""
@@ -89,8 +88,8 @@ const Home = () => {
           </Col>
 
           {/* 3rd ori <div className="grid grid-cols-2 grid-rows-1 gap-x-4 h-150 section-3 mb-10  w-[100%] mx-auto px-10 md:h-full md:w-full gap-2"> */}
-          <Col xs={12} md={5} lg={6} className="buils  mt-20">
-            <div className="mt-20">
+          <Col xs={12} md={5} lg={6} className=" doc  mt-20">
+            <div className="mt-10">
               <img
                 src={Shem}
                 alt=""
@@ -98,10 +97,10 @@ const Home = () => {
               ></img>
             </div>
           </Col>
-          <Col xs={12} md={5} lg={6} className="buils mt-20">
+          <Col xs={12} md={5} lg={6} className="dadbday mt-20">
             <div
               className=" shad rounded-full
-            shadow-2xl   bg-gray-900 "
+            shadow-2xl mt-10  bg-gray-900 "
             >
               <p
                 className=" acme  text-[1.5rem]  text-white text-center
@@ -111,8 +110,9 @@ const Home = () => {
                 Lord thank you for how far you’ve <br />
                 brought us your son. Thank you <br />
                 especially for his life. Thank you for his <br />
-                14th year on earth. We trust that<br /> you will continue to keep him
-                and his family <br />safe and give him wisdom.  Amen
+                14th year on earth. We trust that
+                <br /> you will continue to keep him and his family <br />
+                safe and give him wisdom. Amen
               </p>
             </div>
           </Col>

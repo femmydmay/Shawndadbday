@@ -36,6 +36,10 @@ li {
   'opsz' 48
 }
 
+.bann{gap: 7;
+}
+
+
 .hom {
   text-decoration: none;
 }
@@ -90,10 +94,17 @@ li {
   
 }
 
+.dadbday{background-color: rgb(16,16,100);
+  padding: 40px;
+  width: 900px;
+  margin-top: 60px;
+  
+}
+
 .shad {
   width: 500px;
   /* height: 500px */
-  box-shadow: 10px 10px 5px rgb(16, 16, 100);
+  box-shadow: 10px 10px 5px white;
 }
 .fason {
   padding-top: 20px;
@@ -112,9 +123,10 @@ li {
   padding-top: 20px;
 }
 
-.doc {
+.doc { background-color: rgb(69, 69, 143);
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .happy {
